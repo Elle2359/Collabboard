@@ -54,7 +54,6 @@ Steps To Run the Project:
 1.Downloading the Modules
 
 - node version used is <17.0.0 (If ur Node version is Greater than 17, eg v18 then the app wont run)
-git clone https://github.com/NazimFilzer/WhiteBoard-Collab-SHN.git
 
 cd Collabboard
 
