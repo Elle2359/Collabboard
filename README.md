@@ -8,8 +8,7 @@ Frontend: React with Axios for handling user registration, login, and interactin
 - Express.js
 - MongoDB
 - Socket.io
-- JWT Authentication
-- Bcrypt for password hashing
+- JWT Authentication with Bcrypt for password hashing
 
 ## Project Structure
 The project is structured as follows:

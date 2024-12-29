@@ -11,7 +11,7 @@ const Register = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://kotech-solution.onrender.com/users/register', { username, password });
+      const response = await axios.post('http://localhost:5000/users/register', { username, password });
       alert('User registered successfully!');
       navigate('/login');
     } catch (err) {

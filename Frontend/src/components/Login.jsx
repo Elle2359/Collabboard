@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://kotech-solution.onrender.com/users/login', { username, password });
+      const response = await axios.post('http://localhost:5000/users/login', { username, password });
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('username', username);
       alert('Login successful!');

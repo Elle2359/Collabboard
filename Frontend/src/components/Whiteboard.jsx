@@ -13,7 +13,7 @@ const Whiteboard = () => {
 
   useEffect(() => {
     const token = localStorage.getItem('token');
-    const newSocket = io('https://kotech-solution.onrender.com/', {
+    const newSocket = io.connect("http://localhost:5000", {
       query: { token },
     });
 
