@@ -27,11 +27,11 @@ const Register = () => {
         alignItems: 'center',
         justifyContent: 'center',
         height: '100vh',
-        backgroundColor: '#f9f9f9',
+        backgroundColor: '#ffe6e6',
         fontFamily: 'Arial, sans-serif',
       }}
     >
-      <h2 style={{ color: '#333', marginBottom: '1rem' }}>Register</h2>
+      <h2 style={{ color: '#555', marginBottom: '1rem' }}>Register</h2>
       <form
         onSubmit={handleRegister}
         style={{
@@ -41,7 +41,7 @@ const Register = () => {
           backgroundColor: '#fff',
           padding: '2rem',
           borderRadius: '8px',
-          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
           width: '300px',
         }}
       >
@@ -51,7 +51,7 @@ const Register = () => {
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           style={{
-            padding: '0.75rem',
+            padding: '0.5rem',
             borderRadius: '4px',
             border: '1px solid #ccc',
             outline: 'none',
@@ -64,7 +64,7 @@ const Register = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           style={{
-            padding: '0.75rem',
+            padding: '0.5 rem',
             borderRadius: '4px',
             border: '1px solid #ccc',
             outline: 'none',
@@ -75,7 +75,7 @@ const Register = () => {
           type="submit"
           style={{
             padding: '0.75rem',
-            backgroundColor: '#4CAF50',
+            backgroundColor: '#ccffff',
             color: 'white',
             border: 'none',
             borderRadius: '4px',

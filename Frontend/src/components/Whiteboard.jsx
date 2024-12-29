@@ -5,7 +5,7 @@ const Whiteboard = () => {
   const [socket, setSocket] = useState(null);
   const [activeUsers, setActiveUsers] = useState([]);
   const [drawing, setDrawing] = useState(false);
-  const [color, setColor] = useState('black');
+  const [color, setColor] = useState('grey');
   const [isErasing, setIsErasing] = useState(false);
   const [sessionId, setSessionId] = useState('');
   const canvasRef = useRef(null);
@@ -103,7 +103,7 @@ const Whiteboard = () => {
       alignItems: 'center',
       justifyContent: 'center',
       minHeight: '100vh',
-      backgroundColor: '#f0f2f5',
+      backgroundColor: '#ffe6e6',
       fontFamily: 'Arial, sans-serif',
     }}>
       <h1 style={{ color: '#333', marginBottom: '10px' }}>Collaborative Whiteboard</h1>
@@ -135,7 +135,7 @@ const Whiteboard = () => {
       <div style={{
         display: 'flex',
         gap: '10px',
-        marginBottom: '20px',
+        marginBottom: '10px',
       }}>
         <input
           type="text"
@@ -153,7 +153,7 @@ const Whiteboard = () => {
         <button
           onClick={handleJoin}
           style={{
-            backgroundColor: '#28a745',
+            backgroundColor: '#ccffff',
             color: '#fff',
             border: 'none',
             borderRadius: '4px',
