@@ -48,7 +48,30 @@ The frontend is structured as follows:
 1. Users can register and log in via forms, with data sent to the backend API.
    
 
+Installation
+Steps To Run the Project:
 
+1.Downloading the Modules
 
+- node version used is <17.0.0 (If ur Node version is Greater than 17, eg v18 then the app wont run)
+git clone https://github.com/NazimFilzer/WhiteBoard-Collab-SHN.git
 
+cd Collabboard
+
+cd Backend
+npm install -f
+
+cd ..
+cd Frontend
+npm install
+2.Starting the Servers (Frontend Server)
+
+cd Frontend
+npm start
+On Another Terminal (Backend Server)
+
+cd Backend
+npm start
+Dependencies
+Node v16.*
 
