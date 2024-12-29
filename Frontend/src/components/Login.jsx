@@ -27,19 +27,19 @@ const Login = () => {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      height: '100vh',
-      backgroundColor: '#f7f7f7',
+      height: '125vh',
+      backgroundColor: '#ffe6e6',
       fontFamily: 'Arial, sans-serif',
     }}>
       <div style={{
         backgroundColor: '#ffffff',
         padding: '30px',
         borderRadius: '8px',
-        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.3)',
         width: '300px',
         textAlign: 'center',
       }}>
-        <h2 style={{ marginBottom: '20px', color: '#333' }}>Login</h2>
+        <h2 style={{ marginBottom: '20px', color: '#555' }}>Login</h2>
         <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column' }}>
           <input
             type="text"
@@ -72,7 +72,7 @@ const Login = () => {
           <button
             type="submit"
             style={{
-              backgroundColor: '#007BFF',
+              backgroundColor: '#ccffff',
               color: '#fff',
               border: 'none',
               padding: '10px',
